@@ -1,0 +1,436 @@
+body{
+	background: rgb(245,245,241);
+}
+
+.header{
+	height:130px;
+	width:100%;
+	padding: 0px;
+	margin:0px;
+	background: white;
+}
+
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.headtop{
+	height:100px;
+	width: 100%;
+	/*background: red;*/
+	padding-top: 3px;
+	border-bottom:1px solid grey;
+	box-sizing: border-box;
+	color:rgb(0,170,199);
+
+
+}
+.headbottom{
+	height:40px;
+	box-sizing: border-box;
+	border-bottom:1px solid grey;
+	width: 100%;	
+	background: white
+}
+
+#etsy{
+	display: inline;
+	padding-top:0;
+	margin-top: 20px;	
+	padding-left: 15px;
+	font-size: 40px;
+	color:orange;
+	float:left;
+	clear:right;
+	font-weight: lighter;	
+}
+.headleft input{
+	display: inline;
+	margin-left:20px;
+	height: 30px;
+	width:300px;
+	float:left;
+	margin-top: 25px;
+}
+#headlist li{
+	display: inline;
+	clear:none;
+	margin-top: -50px;
+	flex-direction: row-reverse;
+	margin-left: 10px;
+	margin-right: 5px;
+
+}
+
+#headlist li button{
+	border:1px solid rgb(0,170,199);
+	background: white;
+	border-radius: 3px;
+	height:30px;
+	margin-top: -5px;
+	position: relative;
+	color:rgb(0,170,199);
+}
+
+#headlist li p{
+	color:grey;
+	float:right;
+	margin-top: 15px;
+	margin-left: -60px;		
+	padding-right: 30px;
+	font-size: 10px;
+
+}
+
+#headlist li img{
+	margin-top: -5px;
+	padding-left: 8px;
+	padding-right: 30px;
+	height: 20px;
+}
+
+#headlist{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#search{
+	display: inline;
+	margin-top: 25px;
+	width:70px;
+	height: 36px;
+	background: rgb(0,170,199);
+	color: white;
+}
+
+.headbottom ul li{
+	display: inline;
+	margin-right: 10px;
+
+}
+
+.headbottom ul li a{
+	color:grey;
+
+}
+.nada{
+	position: absolute;
+
+}
+
+.bottomlist{
+	margin-top: 0px;
+	padding-top: 10px;
+}
+.container{
+	display:flex;
+	width:81%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	float:right;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.sidebar{
+	display:flex;
+	width:19%;
+	flex-direction: column;
+	float:left;
+	clear:right;
+	margin-top: 50px;
+	box-sizing: border-box;
+	
+}
+
+
+.holder{
+	width:250px;
+	height:250px;
+	margin: 20px 15px;
+	position:relative;
+	background: white;
+	box-sizing: border-box;
+	border:1px solid lightgrey;
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+
+}
+.holder img{
+	width:100%;
+	height:200px;
+	position:relative;
+}
+.bottomdescrip{
+	position:absolute;
+	bottom:0px;
+	height:50px;
+	width:250px;
+
+
+}
+
+.title{
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   /* -o-text-overflow: ellipsis;*/
+    margin: 1px;
+    padding:0px;
+    font-family: ariel;
+    font-size:.8rem;
+}
+.seller{
+	float:left;
+	margin-top: 6px;
+	margin-left: 2px;
+	font-size:.8rem;
+	color:grey;
+
+}
+.bottomdescrip span{
+	float:right;
+	margin-top: 6px;
+	margin-right: 2px;
+	color:green;
+	font-size: .8rem;
+}
+
+.menu, .menu2{
+	width:90%;
+	box-sizing: border-box;
+	margin-left: 20px;
+	margin-bottom: 40px;
+	background: white;
+
+}
+.menu ul{
+	list-style: none;
+	margin-top: 0px;
+	font-size: 14px;
+}
+
+.menu ul li{
+	color: lightgrey;
+	line-height: 1.5rem;
+	margin:0px;
+	color:rgb(0,170,199);
+
+}
+
+
+.sidebar p{
+	margin-left: 22px;
+	color:black;
+	font-size:14px;
+
+}
+.sidebar ul p{
+	margin-left: -30px;
+	color:black;
+}
+
+#refine{
+	margin-top: -25px;
+	padding: 0px;
+	margin-left: 0px;
+}
+#radiobutton label{
+	display: inline-block;
+	float:left;
+	height:30px;
+	margin-top: 5px
+	width:250px;
+	font-size: 14px;
+	color:rgb(0,170,199);
+	clear:left;
+
+
+
+}
+#radiobutton label input{
+	float:left;
+	clear:none;
+	width:10px;
+	height:30px;
+	margin-top: -7px;
+	clear:left;
+
+}
+#radiobutton{
+	width: 90%;
+	margin-left: 0%;
+
+}
+
+
+#itemtype{
+	margin-left: 5%
+}
+.formholder{
+	border-bottom: 1px solid lightgrey;
+	height:120px;
+	width:90%;
+	margin-left: 5%;
+}
+.inputholder{
+	border-bottom: 1px solid lightgrey;
+	width:90%;
+	height:80px;
+	margin-left: 5%;
+
+}
+.inputholder input{
+	width:45px;
+	margin: 0px
+	padding:0px;
+	margin-left: 5%;
+	height:30px;
+	border-radius: 2px;
+	border:1px solid lightgrey;
+
+}
+.inputholder p{
+	padding: 0px;
+	margin:0px;
+	margin-left: 0;
+	margin-top: 15px;
+
+}
+#to{
+	display:inline;
+	font-size: 12px;
+	margin:0px 0px;
+	padding: 0px
+}
+.inputholder button{
+	height:33px;
+	border-radius: 2px;
+	border:1px solid lightgrey;
+	background: white;
+	width:23px;
+	padding: 0px;
+	margin: 0px
+
+
+}
+#colorHolder p{
+	margin-left: 0%
+}
+#colorHolder{
+	width:90%;
+	margin-left: 5%;
+	border-bottom: 1px solid lightgrey;
+	height: 70px;
+}
+#colorHolder button{
+	height: 22px;
+	width:22px;
+	margin-left: 1px;
+	border-radius: 3px;
+	border:1px solid lightgrey;
+}
+#red{
+	background: red;
+}
+#orange{
+	background: orange;
+}
+#yellow{
+	background: yellow;
+}
+#green{
+	background: green
+}
+#skyblue{
+	background: lightblue;
+}
+#magenta{
+	background: magenta;
+}
+#white{
+	background: white;
+}
+#black{
+	background: black;
+}
+
+#orderoption label{
+	display:inline;
+	float:left;
+	clear:left;
+	margin-left: 5%;
+	color:rgb(0,177,199);
+	font-size:14px;
+}
+#orderoption label input{
+	margin-right: 6px;
+}
+#orderoption p{
+	margin-left: 0%;
+}
+
+#orderoption{
+	width:90%;
+	margin-left: 5%;
+	border-bottom:1px solid lightgrey;
+	height:75px;
+}
+#location{
+	width:90%;
+	margin-left: 5%;
+	border-bottom: 1px solid lightgrey;
+	height:100px;
+}
+
+.locationChange label{
+	float:left;
+	clear:left;
+	font-size: 14px;
+	color:rgb(0,177,199);
+}
+.locationChange input{
+	margin-right:7px;
+	padding-bottom: 2px;
+	width:10px;
+}
+
+#location #changer{
+	clear:both;
+	display: block;
+	font-size: 14px;
+	color:rgb(0,177,199);
+	padding-top: 5px;
+}
+#selector p, #location p{
+	margin-left: 0%;
+}
+
+#selector{
+	width: 90%;
+	margin-left:5%;
+	border-bottom: 1px solid lightgrey;
+}
+
+#selector select{
+	width:200px;
+	background: white;
+	border:1px solid grey;
+	height:30px;
+	margin-bottom: 20px;
+
+
+}
+
+#selector select option{
+	color:red;
+}
+
+#selector select:focus{
+	border:1px solid rgb(0,177,199);
+	background: white;
+
+}
